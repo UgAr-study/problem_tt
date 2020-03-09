@@ -98,7 +98,7 @@ int main() {
     struct tree_node* tree;
     tree = (struct tree_node*) calloc (1, sizeof(struct tree_node));
 
-    scanf("%d", &len);
+    scanf("%d", &len     );
     preorder = (int*) calloc (len, sizeof(int));
     inorder = (int*) calloc(len, sizeof(int));
 
